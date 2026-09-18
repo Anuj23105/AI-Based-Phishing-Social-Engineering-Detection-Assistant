@@ -1,0 +1,31 @@
+{
+  "repeats": 300,
+  "max_fpr_budget": 0.1,
+  "chosen_threshold": 0.34,
+  "threshold_spread": {
+    "min": 0.34,
+    "median": 0.34,
+    "max": 0.46,
+    "stdev": 0.036
+  },
+  "held_out_mean": {
+    "accuracy": 1.0,
+    "recall": 1.0,
+    "false_positive_rate": 0.0
+  },
+  "held_out_worst": {
+    "accuracy": 1.0,
+    "recall": 1.0,
+    "false_positive_rate": 0.0
+  },
+  "full_gold_at_chosen_threshold": {
+    "accuracy": 1.0,
+    "recall": 1.0,
+    "false_positive_rate": 0.0
+  },
+  "full_gold_at_default_0.5": {
+    "accuracy": 1.0,
+    "recall": 1.0,
+    "false_positive_rate": 0.0
+  }
+}

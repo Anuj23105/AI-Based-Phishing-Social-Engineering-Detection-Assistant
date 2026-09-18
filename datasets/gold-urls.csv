@@ -1,0 +1,71 @@
+id,url,label,kind,notes
+u001,http://sbi-kyc-update.online/verify,1,brand-prefix,brand name plus action word on cheap TLD
+u002,https://hdfcbank.secure-login-portal.tk/netbanking,1,brand-subdomain,brand pushed into subdomain
+u003,http://paypa1.com/signin,1,typosquat,digit substituted for letter
+u004,https://arnazon.in/orders/verify,1,typosquat,rn substituted for m
+u005,http://www.gooogle-security.cf/account/recovery,1,typosquat,doubled vowel plus suffix
+u006,http://192.168.44.19:8080/icici/netbanking/login,1,ip-host,raw IP with brand in path
+u007,https://bit.ly/3xKq9Za,1,shortener,destination hidden
+u008,https://cutt.ly/kyc-update,1,shortener,shortener with lure slug
+u009,https://sbi-online-verify.000webhostapp.com/login,1,free-hosting,free host with bank branding
+u010,https://icici-kyc.netlify.app/customer/verify,1,free-hosting,static host serving fake bank login
+u011,http://xn--pypal-4ve.com/webscr,1,punycode,punycode homograph
+u012,http://secure-update-3f9a2b.top/?redirect=https%3A%2F%2Fhdfc-verify.tk%2Flogin,1,open-redirect,redirect parameter to another phishing host
+u013,http://netflix.com@billing-update-7742.xyz/renew,1,userinfo,text before @ hides the real host
+u014,http://amazon.verify.account.secure-7a91.click/signin,1,deep-subdomain,four level subdomain chain
+u015,http://irctc-refund.claim-now.buzz/refund?card=&cvv=,1,credential-params,card and cvv parameters
+u016,http://invoice-docs.microsoft-support.work/statement-88421.exe,1,malware,executable download
+u017,http://tax-refund-portal.gq/incometax/claim?pan=ABCDE1234F,1,identity-params,PAN pre-filled in the URL
+u018,https://uidai-aadhaar-verify.pages.dev/otp/validate,1,free-hosting,Aadhaar OTP capture page
+u019,http://flipkart-bigbillion-winner.monster/prize/claim,1,reward-lure,prize claim path
+u020,http://epfo-uan-kyc.ga/update?uan=100234567890,1,identity-params,UAN in query string
+u021,https://wa.me/919812345678?text=I%20want%20to%20claim%20my%20prize,1,channel-switch,pushes victim to WhatsApp
+u022,http://phonepe-cashback.glitch.me/scan,1,free-hosting,UPI cashback bait
+u023,http://axisbank.card-unblock.rest/reactivate,1,brand-subdomain,card unblock lure
+u024,http://kotak-secure.login-verify-online.cyou/auth/validate,1,brand-prefix,stacked action words
+u025,http://update-billing.netflix-account.sbs/payment,1,brand-subdomain,billing update lure
+u026,http://apple-id-locked.autos/unlock?email=user%40gmail.com,1,identity-params,email pre-filled
+u027,http://steamcommunity-gift.ru.com/trade/offer,1,typosquat,lookalike gaming domain
+u028,http://docusign-esign.repl.co/review/sign,1,free-hosting,fake e-signature portal
+u029,http://o365-password-keep.workers.dev/signin?user=finance,1,free-hosting,password expiry lure
+u030,http://gst-penalty-pay.work/challan/8842190,1,brand-prefix,fake GST challan
+u031,http://sharepoint-payroll.jotform.com/form/44821,1,form-service,credentials posted to a form service
+u032,http://45.132.19.204/wp-content/uploads/sbi/login.php,1,ip-host,compromised host serving a kit
+u033,http://whatsapp-device-logout.tk/verify?code=,1,brand-prefix,session hijack page
+u034,http://binance-wallet-restore.icu/seed,1,crypto-theft,seed phrase capture
+u035,http://myntra-refund-claim.click/refund/card,1,brand-prefix,refund lure
+v001,https://www.google.com/search?q=how+to+report+phishing,0,legitimate,mainstream search
+v002,https://accounts.google.com/signin/v2/identifier,0,legitimate,real login endpoint
+v003,https://www.hdfcbank.com/personal/pay/cards/credit-cards,0,legitimate,real bank marketing page
+v004,https://onlinesbi.sbi/,0,legitimate,real bank portal
+v005,https://www.icicibank.com/personal-banking/accounts,0,legitimate,real bank page
+v006,https://www.amazon.in/gp/your-account/order-history,0,legitimate,real order history path
+v007,https://www.flipkart.com/account/orders,0,legitimate,real account page
+v008,https://github.com/nodejs/node/issues/44821,0,legitimate,repository issue
+v009,https://stackoverflow.com/questions/12345678/how-to-parse-a-url,0,legitimate,question page
+v010,https://en.wikipedia.org/wiki/Phishing,0,legitimate,encyclopedia article
+v011,https://docs.python.org/3/library/urllib.parse.html,0,legitimate,documentation
+v012,https://www.incometax.gov.in/iec/foportal/,0,legitimate,real government portal
+v013,https://www.uidai.gov.in/my-aadhaar/get-aadhaar.html,0,legitimate,real government page
+v014,https://www.irctc.co.in/nget/train-search,0,legitimate,real booking portal
+v015,https://support.microsoft.com/en-us/office/reset-your-password,0,legitimate,support article about passwords
+v016,https://www.paypal.com/in/webapps/mpp/home,0,legitimate,real brand homepage
+v017,https://www.netflix.com/in/login,0,legitimate,real login page
+v018,https://www.linkedin.com/jobs/search/?keywords=analyst,0,legitimate,job search with query
+v019,https://outlook.office.com/mail/inbox,0,legitimate,webmail app path
+v020,https://zoom.us/j/88421903772?pwd=abcdef,0,legitimate,meeting link with password param
+v021,https://www.paytm.com/offers,0,legitimate,real offers page
+v022,https://www.phonepe.com/support/,0,legitimate,real support page
+v023,https://razorpay.com/docs/payments/payment-gateway/,0,legitimate,developer docs
+v024,https://www.thehindu.com/news/national/article88421903.ece,0,legitimate,news article
+v025,https://www.moneycontrol.com/news/business/markets/,0,legitimate,news section
+v026,https://nptel.ac.in/courses/106106184,0,legitimate,course page
+v027,https://www.iitb.ac.in/en/education/academic-calendar,0,legitimate,college page
+v028,https://leetcode.com/problems/two-sum/description/,0,legitimate,practice problem
+v029,https://developer.mozilla.org/en-US/docs/Web/API/URL,0,legitimate,MDN reference
+v030,https://www.bookmyshow.com/explore/movies-mumbai,0,legitimate,city listing
+v031,https://cleartax.in/s/income-tax-refund-status,0,legitimate,tax help article about refunds
+v032,https://status.slack.com/,0,legitimate,status page
+v033,https://www.dhl.com/in-en/home/tracking.html,0,legitimate,real courier tracking page
+v034,https://www.bluedart.com/track-shipment,0,legitimate,real courier page
+v035,http://www.bsnl.co.in/opencms/bsnl/BSNL/services/,0,legitimate,real telecom page served over http

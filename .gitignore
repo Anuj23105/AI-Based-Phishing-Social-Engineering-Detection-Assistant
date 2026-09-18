@@ -1,0 +1,31 @@
+# dependencies
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# build output
+client/dist/
+client/.vite/
+
+# trained models and generated corpora (reproducible: see README)
+ml/artifacts/*.joblib
+ml/training/datasets/messages.csv
+ml/training/datasets/urls.csv
+
+# runtime data
+server/data/
+*.log
+
+# secrets
+.env
+.env.local
+server/.env
+ml/.env
+
+# editors / OS
+.DS_Store
+Thumbs.db
+.idea/
+*.swp

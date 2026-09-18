@@ -1,0 +1,20 @@
+{
+  "name": "phishguard-ai",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI-based phishing and social engineering detection assistant (web app)",
+  "type": "module",
+  "scripts": {
+    "install:all": "npm install && npm --prefix server install && npm --prefix client install",
+    "dev": "concurrently -n server,client -c cyan,magenta \"npm:dev:server\" \"npm:dev:client\"",
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "start": "npm --prefix server start",
+    "build": "npm --prefix client run build",
+    "evaluate": "npm --prefix server run evaluate",
+    "evaluate:pipeline": "npm --prefix server run evaluate:pipeline"
+  },
+  "devDependencies": {
+    "concurrently": "8.2.2"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "model": "engineered lexical features + StandardScaler + LogisticRegression",
+  "version": "1.0.0",
+  "trained_at": "2026-08-24T11:50:11+00:00",
+  "dataset": "D:\\Desktop\\project\\SIH2026\\ml\\training\\datasets\\urls.csv",
+  "rows": 9000,
+  "features": 51,
+  "seed": 42,
+  "metrics": {
+    "accuracy": 0.9983,
+    "precision": 1.0,
+    "recall": 0.9967,
+    "f1": 0.9983,
+    "roc_auc": 1.0,
+    "average_precision": 1.0,
+    "false_positive_rate": 0.0,
+    "false_negative_rate": 0.0033,
+    "confusion_matrix": {
+      "tn": 900,
+      "fp": 0,
+      "fn": 3,
+      "tp": 897
+    }
+  },
+  "cross_validation": {
+    "mean_f1": 0.9993,
+    "std_f1": 0.0008
+  },
+  "benchmark_random_forest": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "roc_auc": 1.0,
+    "average_precision": 1.0,
+    "false_positive_rate": 0.0,
+    "false_negative_rate": 0.0,
+    "confusion_matrix": {
+      "tn": 900,
+      "fp": 0,
+      "fn": 0,
+      "tp": 900
+    }
+  }
+}
